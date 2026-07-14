@@ -36,6 +36,7 @@ This project automates the helpdesk ticket triage process by analyzing incoming 
 
 # System Architecture
 
+```text
 Employee
     │
     ▼
@@ -59,6 +60,7 @@ AI Analysis
     │
     ▼
 Update Ticket
+```
 
 ---
 
@@ -141,7 +143,7 @@ AI Response:
 
 # Project Structure
 
-
+```
 HelpdeskAPI
 │
 ├── Controllers/
@@ -152,7 +154,7 @@ HelpdeskAPI
 ├── Program.cs
 ├── appsettings.json
 └── Helpdesk.db
-
+```
 
 ---
 
@@ -167,6 +169,7 @@ Configure your API key using:
 - .NET User Secrets
 - Environment Variables
 - Azure Key Vault (Production)
+
 
 ---
 
