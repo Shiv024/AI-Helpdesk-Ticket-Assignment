@@ -81,6 +81,8 @@ Assign the ticket to the engineer who:
 2. Has the fewest open tickets.
 3. If multiple engineers qualify, choose the one with the lowest workload.
 
+I want you to ensure equitable assignment. Make sure to not consistently assign to one engineer.
+
 Return ONLY valid JSON.
 ";
 
